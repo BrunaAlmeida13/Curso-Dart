@@ -18,7 +18,13 @@ void main() {
   String texto3 = "Ano $ano";
   print("Estamos no $texto3");
 
+  // não é possível mudar a tipagem da variável, mesmo usando var
   var idade2 = 30;
   var texto4 = "anos";
   print("$idade2 $texto4");
+
+  // dynamic - o valor e o tipo da variável pode ser mudado | tem custo de memória usar 
+  dynamic idade3 = 22;
+  idade3 = "idade = 22";
+
 }
